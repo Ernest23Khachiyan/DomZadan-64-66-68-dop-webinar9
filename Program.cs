@@ -21,7 +21,7 @@ int[] RecursionNumbers(int[] list, int a, int b, int count)
 void ShowArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
-        if (i % 2 == 0)                           //для нахождения четных чисел
+        if (array[i] % 2 == 0)                          //для нахождения четных чисел
         {
             Console.Write(array[i]);
             Console.Write(" ");
